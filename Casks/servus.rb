@@ -13,7 +13,7 @@ cask "servus" do
     strategy :sparkle
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Servus.app"
 
