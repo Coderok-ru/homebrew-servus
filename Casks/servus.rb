@@ -1,7 +1,7 @@
 # Homebrew Cask для Servus (tap Coderok-ru/homebrew-servus). Обновляется release-workflow.
 cask "servus" do
-  version "1.1.0"
-  sha256 "bf6bd18402d14cfa0d7a4b1d6b7c9008c95165bfe97ea2aa32c84491fa2318e6"
+  version "1.2.0"
+  sha256 "d672fceafceffc6e23c1f582f313bc3e6fef704ba326b6256c78fe35e36fbd19"
 
   url "https://github.com/Coderok-ru/servus-site/releases/download/v#{version}/Servus-#{version}.dmg"
   name "Servus"
