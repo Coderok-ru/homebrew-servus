@@ -1,7 +1,7 @@
 # Homebrew Cask для Servus (tap Coderok-ru/homebrew-servus). Обновляется release-workflow.
 cask "servus" do
-  version "1.0.0"
-  sha256 "25f3763577639bd9afbffde89930dfe33f10434a2ab7943334629c5a6ee1380d"
+  version "1.1.0"
+  sha256 "bf6bd18402d14cfa0d7a4b1d6b7c9008c95165bfe97ea2aa32c84491fa2318e6"
 
   url "https://github.com/Coderok-ru/servus-site/releases/download/v#{version}/Servus-#{version}.dmg"
   name "Servus"
@@ -13,6 +13,7 @@ cask "servus" do
     strategy :sparkle
   end
 
+  depends_on arch: :arm64
   depends_on macos: :sequoia
 
   app "Servus.app"
